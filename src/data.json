@@ -1,0 +1,42 @@
+{
+    "name": "Samuil Shenderovich",
+    "position": "Backend developer / Fullstack developer",
+    "contacts": [
+        {
+            "type": "phone",
+            "value": "+79998889999"
+        },
+        {
+            "type": "location",
+            "value": "Russia, Vologodskay oblast, Kazan"
+        },
+        {
+            "type": "email",
+            "value": "shenderovich.samuil@mail.ru"
+        }
+    ],
+    "summary": "More than 8 years of production experience",
+    "skills":[
+        ".Net", "SQL", "Asp.Net", "NHibernate", "Html", "Knockout.js"
+    ],
+    "languages":[
+        {
+            "type": "Russian",
+            "value": "Native"
+        },
+        {
+            "type": "English",
+            "value": "Upper-Intermediate"
+        }
+    ],
+    "education":
+    {
+        "degree": "Software Engineering",
+        "university": "IzhGTU",
+        "years": "2000-2000",
+        "place": "Russia, Udmurtia, Izhevsk"
+    },
+    "experience": [
+        
+    ]
+}
