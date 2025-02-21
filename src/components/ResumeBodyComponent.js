@@ -1,7 +1,9 @@
-import ExperienceListItem from "./ExperienceListItem";
+import ResumeExperienceComponent from "./ResumeExperienceComponent";
+import ResumeSideBar from "./ResumeSideBar";
 
 export default function ResumeBodyComponent({user}) {
-    const experience = [];
-    user.experience.forEach(el => experience.push(<ExperienceListItem data={el} />));
-    return (<div>{experience}</div>);
+    return (<div>
+        <ResumeExperienceComponent experience={user.experience}></ResumeExperienceComponent>
+        <ResumeSideBar></ResumeSideBar>
+    </div>);
 }

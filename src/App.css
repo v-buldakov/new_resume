@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #FFF8F3;
 }
 
 .App-logo {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.experienceHeader {
+  border-bottom: black solid 2px;
+}
+
+.experienceListItem {
+  border-top: 2px solid gray;
+}
+
+.experienceListItem:first-child {
+  border-top: transparent;
 }
