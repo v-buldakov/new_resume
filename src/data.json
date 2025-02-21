@@ -17,7 +17,15 @@
     ],
     "summary": "More than 8 years of production experience",
     "skills":[
-        ".Net", "SQL", "Asp.Net", "NHibernate", "Html", "Knockout.js"
+        {
+            "type": "Coding",
+            "list": [".Net", "SQL", "Asp.Net", "NHibernate", "Html", "Knockout.js"]
+        },
+        {
+            "type": "Project management",
+            "list": ["Jira"]
+        }
+        
     ],
     "languages":[
         {
@@ -37,6 +45,33 @@
         "place": "Russia, Udmurtia, Izhevsk"
     },
     "experience": [
-        
+        {
+            "position": "Backend developer / Fullstack developer",
+            "company" : "Bad wolf INC",
+            "startDate": "15.02.2002",
+            "endDate": "01.02.2005",
+            "place": "Russia, Udmurtia, Izhevsk",
+            "fullInformation": {
+                "overview": "test",
+                "fullInformation": [
+                    "Communicated with clients and designed UI/UX mockups",
+                    "Coordinated a small team"
+                ]
+            }
+        },
+        {
+            "position": "Frontend developer",
+            "company" : "Bad wolf INC",
+            "startDate": "15.02.2002",
+            "endDate": "01.02.2005",
+            "place": "Russia, Udmurtia, Izhevsk",
+            "fullInformation": {
+                "overview": "test",
+                "fullInformation": [
+                    "Communicated with clients and designed UI/UX mockups",
+                    "Coordinated a small team"
+                ]
+            }
+        }
     ]
 }

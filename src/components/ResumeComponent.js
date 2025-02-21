@@ -5,6 +5,6 @@ import '../index.css'
 export default function ResumeMainComponent({data}){
     return (<div className="container">
         <ResumeHeaderComponent user={data}/>
-        <ResumeBodyComponent />
+        <ResumeBodyComponent user={data}/>
     </div>);
 }
