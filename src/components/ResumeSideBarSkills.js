@@ -1,4 +1,4 @@
-import ResumeSideBarSkillsItem from "./ResumeSideBarSkillsItem"
+import ResumeSideBarSkillsItem from "./ResumeSideBarSkillsItem";
 
 function ResumeSideBarSkills({skills}){
     const data = [];
