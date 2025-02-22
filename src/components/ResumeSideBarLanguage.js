@@ -1,3 +1,5 @@
+import ResumeSideBarLanguageItem from "./ResumeSideBarLanguageItem";
+
 function ResumeSideBarLanguage(){
 
 }

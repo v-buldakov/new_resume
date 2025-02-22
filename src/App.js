@@ -1,9 +1,8 @@
 import './App.css';
 import ResumeMainComponent from './components/ResumeComponent';
-import * as data from './data.json';
+import * as user from './data.json';
 
 function App() {
-  const user = data;
   return (
     <div className="App">
       <ResumeMainComponent data={user}/>
