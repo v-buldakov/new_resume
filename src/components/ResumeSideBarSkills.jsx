@@ -2,8 +2,8 @@ import ResumeSideBarSkillsItem from "./ResumeSideBarSkillsItem";
 
 function ResumeSideBarSkills({skills}){
     const data = [];
-    skills.forEach(element =>{
-        data.push(<ResumeSideBarSkillsItem type={element.type} list={element.list}></ResumeSideBarSkillsItem>)
+    skills.forEach((element, index) =>{
+        data.push(<ResumeSideBarSkillsItem type={element.type} list={element.list} key={index}></ResumeSideBarSkillsItem>)
     });
 
     return (<div>

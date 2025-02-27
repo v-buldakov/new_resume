@@ -1,7 +1,7 @@
 function ResumeSideBarSkillsItem({type, list}){
     const items = [];
-    list.forEach(element => {
-        items.push(<p>{element}</p>)
+    list.forEach((element, index) => {
+        items.push(<span className="badge text-bg-secondary" key={index}>{element}</span>)
     });
 
     return (<div>

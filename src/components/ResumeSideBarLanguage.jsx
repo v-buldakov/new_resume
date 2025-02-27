@@ -2,9 +2,9 @@ import ResumeSideBarLanguageItem from "./ResumeSideBarLanguageItem";
 
 function ResumeSideBarLanguage({ languages }) {
   const data = [];
-  languages.forEach((element) => {
+  languages.forEach((element, index) => {
     data.push(
-      <ResumeSideBarLanguageItem language={element}></ResumeSideBarLanguageItem>
+      <ResumeSideBarLanguageItem language={element} key={index}></ResumeSideBarLanguageItem>
     );
   });
   return (

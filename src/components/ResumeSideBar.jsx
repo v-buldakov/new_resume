@@ -4,7 +4,7 @@ import ResumeSideBarSummary from "./ResumeSideBarSummary";
 
 function ResumeSideBar({user}){
 
-    return(<div>
+    return(<div className="sidebar">
         <ResumeSideBarSummary summary={user.summary}></ResumeSideBarSummary>
         <ResumeSideBarSkills skills={user.skills}></ResumeSideBarSkills>
         <ResumeSideBarLanguage languages={user.languages}></ResumeSideBarLanguage>

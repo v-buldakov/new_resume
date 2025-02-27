@@ -1,7 +1,7 @@
 function ExperienceListItem({data, index}){
     const ulData = [];
-    data.fullInformation.fullInformation.forEach(element => {
-        ulData.push(<li>{element}</li>);
+    data.fullInformation.fullInformation.forEach((element, index) => {
+        ulData.push(<li key={index}>{element}</li>);
     });
     const addClass = index !== 0 ? "experienceListItem" : "";
     return (<div className={addClass}>
